@@ -33,7 +33,6 @@ parts:
       # Desktop Action are not Unity specific.
       sed -i 's|OnlyShowIn|#OnlyShowIn|g' $CRAFT_PART_INSTALL/usr/share/applications/sublime_merge.desktop
     stage-packages:
-      - git
       - libbsd0
       - libffi8
       - libgtk-3-0
